@@ -29,4 +29,4 @@ This is a MEAN website made as a assignment for the Wireless Research Lab at the
   move student               |POST        |`{"std":int,"from":str, "to":str}`                           |`..t/mov`
   remove student             |POST        |`{"std":int, "from":str}`                                    |`..t/rmv/std`
   remove group               |POST        |`{"grp":int}`                                                |`..t/rmv/grp`
-  return students data       |POST        |`{"from":str, "to":str}`                                     |`..t/getData`
+  return studentsط data      |POST        |`{"from":str, "to":str}`                                     |`..t/getData`
