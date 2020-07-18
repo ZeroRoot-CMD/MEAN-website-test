@@ -25,8 +25,8 @@ This is a MEAN website made as a assignment for the Wireless Research Lab at the
   register                   |POST        |`{"user":str,"pass":str,"name":str,"email":str,"phone":int}` |`..t/reg`
   create test                |POST        |`{"ques":[ ["Bla Bla?", ["a1","a2",..], .. ] ],"user":str}`  |`..t/tst`
   create group               |POST        |`{"stds":["std1", "std2", ..], "grpName":str, "user":str}`   |`..t/grp`
-  receive students requests  |POST        |`{"std":int, "grpNo":int}`                                   |`..t/req`
+  receive students' requests |POST        |`{"std":int, "grpNo":int}`                                   |`..t/req`
   move student               |POST        |`{"std":int,"from":str, "to":str}`                           |`..t/mov`
-  remove strudent            |POST        |`{"std":int, "from":str}`                                    |`..t/rmv/std`
+  remove student             |POST        |`{"std":int, "from":str}`                                    |`..t/rmv/std`
   remove group               |POST        |`{"grp":int}`                                                |`..t/rmv/grp`
-  return studens data        |GET         |`..`                                                         |`..t/getData?from=INT&to=INT`
+  return students data       |POST        |`{"from":str, "to":str}`                                     |`..t/getData`
